@@ -1,0 +1,1 @@
+import{Ja as n,Ka as s,Ma as p,ya as o}from"./chunk-WXWCHD7A.js";var a=class e{static \u0275fac=function(t){return new(t||e)};static \u0275cmp=o({type:e,selectors:[["app-post"]],decls:2,vars:0,template:function(t,m){t&1&&(n(0,"p"),p(1,"post works!"),s())},encapsulation:2})};export{a as PostComponent};
