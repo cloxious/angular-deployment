@@ -7,4 +7,9 @@ export const routes: Routes = [
     loadComponent: () =>
       import("./home/home.component").then((c) => c.HomeComponent),
   },
+  {
+    path: "post/:id",
+    loadComponent: () =>
+      import("./post/post.component").then((c) => c.PostComponent),
+  },
 ];
